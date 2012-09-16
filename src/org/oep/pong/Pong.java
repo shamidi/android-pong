@@ -54,7 +54,8 @@ public class Pong extends Activity {
 		
 		this.findViewById(R.id.title_btnTwoPlayer)
 		.setOnClickListener(new OnClickListener() {
-			//@Override
+
+		    //@Override
 			public void onClick(View v) {
 				startGame(true,true);
 			}
